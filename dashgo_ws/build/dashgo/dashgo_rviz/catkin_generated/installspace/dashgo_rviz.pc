@@ -1,0 +1,8 @@
+prefix=/home/eaibot/dashgo_ws/install
+
+Name: dashgo_rviz
+Description: Description of dashgo_rviz
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/eaibot/dashgo_ws/install/lib 
+Requires: 

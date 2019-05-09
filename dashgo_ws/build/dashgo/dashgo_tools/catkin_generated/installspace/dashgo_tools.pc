@@ -1,0 +1,8 @@
+prefix=/home/eaibot/dashgo_ws/install
+
+Name: dashgo_tools
+Description: Description of dashgo_tools
+Version: 0.0.0
+Cflags: -I/home/eaibot/dashgo_ws/install/include
+Libs: -L/home/eaibot/dashgo_ws/install/lib 
+Requires: actionlib_msgs

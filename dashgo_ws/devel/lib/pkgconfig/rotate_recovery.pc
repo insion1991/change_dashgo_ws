@@ -1,0 +1,8 @@
+prefix=/home/eaibot/dashgo_ws/devel
+
+Name: rotate_recovery
+Description: Description of rotate_recovery
+Version: 1.14.4
+Cflags: -I/home/eaibot/dashgo_ws/src/dashgo/navigation-kinetic-devel/rotate_recovery/include
+Libs: -L/home/eaibot/dashgo_ws/devel/lib -lrotate_recovery
+Requires: roscpp pluginlib

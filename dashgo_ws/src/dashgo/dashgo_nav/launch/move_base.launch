@@ -1,0 +1,14 @@
+<launch>
+  <node pkg="move_base" type="move_base" respawn="true" name="move_base" output="screen" clear_params="true">
+    <rosparam file="$(find dashgo_nav)/config/costmap_common_params.yaml" command="load" ns="global_costmap" />
+    <rosparam file="$(find dashgo_nav)/config/costmap_common_params.yaml" command="load" ns="local_costmap" />
+    <rosparam file="$(find dashgo_nav)/config/local_costmap_params.yaml" command="load" />
+    <rosparam file="$(find dashgo_nav)/config/global_costmap_params.yaml" command="load" />
+    <rosparam file="$(find dashgo_nav)/config/base_global_planner_param.yaml" command="load" />
+
+    <rosparam file="$(find dashgo_nav)/config/teb_local_planner_params.yaml" command="load" />
+    <rosparam file="$(find dashgo_nav)/config/move_base_params.yaml" command="load" />
+
+  </node>
+  
+</launch>

@@ -1,0 +1,8 @@
+prefix=/home/eaibot/dashgo_ws/devel
+
+Name: move_slow_and_clear
+Description: Description of move_slow_and_clear
+Version: 1.14.4
+Cflags: -I/home/eaibot/dashgo_ws/src/dashgo/navigation-kinetic-devel/move_slow_and_clear/include
+Libs: -L/home/eaibot/dashgo_ws/devel/lib -lmove_slow_and_clear
+Requires: geometry_msgs nav_core pluginlib roscpp

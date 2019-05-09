@@ -1,0 +1,8 @@
+prefix=/home/eaibot/dashgo_ws/devel
+
+Name: dashgo_nav
+Description: Description of dashgo_nav
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/eaibot/dashgo_ws/devel/lib 
+Requires: 
